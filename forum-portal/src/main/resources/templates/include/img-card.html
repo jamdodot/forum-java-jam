@@ -5,10 +5,10 @@
 
     <div th:if="${!#strings.isEmpty(imgUrl)}" class="card">
         <div class="card-header" style="background-color: white;">
-            <span th:text="${title}">官方微信</span>
+            <span th:text="${title}" href="https://blog.csdn.net/whalefall_">官方微信</span>
         </div>
         <div class="card-body">
-            <a th:href="${activeUrl}" target="_blank">
+            <a href="https://blog.csdn.net/whalefall_" target="_blank">
                 <div class="row" style="text-align: center">
                     <img th:src="${imgUrl}" style="width: 80%;height: 80%;margin: 0 auto;">
                 </div>
@@ -16,5 +16,4 @@
         </div>
     </div>
 </div>
-
 </html>

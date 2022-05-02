@@ -24,7 +24,7 @@
 	<groupId>pub.developers</groupId>
 	<artifactId>forum-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>forum-java</name>
+	<name>forum-java-jam</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -36,7 +36,7 @@
 			<dependency>
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok</artifactId>
-				<version>1.16.10</version>
+				<version>1.18.22</version>
 			</dependency>
 			<dependency>
 				<groupId>org.mybatis.spring.boot</groupId>
