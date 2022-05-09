@@ -23,11 +23,13 @@
                     <a class="nav-link" href="/interest">关注</a>
                 </li>
             </ul>
+<!--            搜索-->
             <form class="form-inline my-md-0" action="/search" method="get" target="_blank">
                 <input name="key" required class="form-control mr-sm-2" type="text" placeholder="搜索">
             </form>
             <ul th:if="${!isLogin}" class="navbar-nav my-md-0">
                 <li class="nav-item">
+<!--                    点击登录弹出登录-->
                     <a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">登录</a>
                 </li>
             </ul>
@@ -38,7 +40,7 @@
                         <i data-feather="bell" style="width: 18px;height: 18px;"></i>
                     </a>
                 </li>
-                <!-- Dropdown -->
+                <!-- Dropdown 下拉框-->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                         <img th:src="${loginUser.avatar}" src="https://static.developers.pub/static/img/logo.b2ff606.jpeg" width="30" height="30" alt="" loading="lazy">
@@ -53,7 +55,7 @@
             </ul>
         </div>
     </nav>
-    <!-- 登录 Modal -->
+    <!-- 登录 Modal 弹出框-->
     <div class="modal fade" id="loginModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="loginModalDropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
