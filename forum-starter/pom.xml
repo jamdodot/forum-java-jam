@@ -12,7 +12,7 @@
     <artifactId>forum-starter</artifactId>
 
     <!--打 war 包-->
-    <packaging>war</packaging>
+<!--    <packaging>war</packaging>-->
     <dependencies>
         <dependency>
             <groupId>pub.developers</groupId>
@@ -29,28 +29,28 @@
             <artifactId>forum-infrastructure</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <!-- 不将内置的tomcat打包 -->
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.tomcat</groupId>
-            <artifactId>tomcat-juli</artifactId>
-            <version>9.0.62</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <!-- 不将内置的tomcat打包 -->
-            <scope>provided</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-web</artifactId>-->
+<!--            &lt;!&ndash; 不将内置的tomcat打包 &ndash;&gt;-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>org.springframework.boot</groupId>-->
+<!--                    <artifactId>spring-boot-starter-tomcat</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.tomcat</groupId>-->
+<!--            <artifactId>tomcat-juli</artifactId>-->
+<!--            <version>9.0.62</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-tomcat</artifactId>-->
+<!--            &lt;!&ndash; 不将内置的tomcat打包 &ndash;&gt;-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
